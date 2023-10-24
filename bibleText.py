@@ -4,6 +4,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
+# Define a dictionary of Bible book tags and their respective chapter count
 bible_tags: dict = {
     "MAT": 28,
     "MRK": 16,
@@ -34,55 +35,69 @@ bible_tags: dict = {
     "REV": 22,
 }
 
+# Function to retrieve the text content of a specific chapter of a Bible book
 def get_chapter_text(tag: str, page: int) -> list:
+    # Make a request to the Bible API for the given book tag and chapter page
     response = requests.get(f'https://live.bible.is/bible/ISLICE/{tag}/{str(page)}')
     html_content: str = response.text
+    # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(html_content, 'html.parser')
+    # Find the script tag with a specific id
     script_tag = soup.find('script', {'id': '__NEXT_DATA__'})
+
     if script_tag:
-        # Extract the content of the script tag
+        # Extract and parse the JSON content of the script tag
         script_content = script_tag.string
         script_dic : dict = json.loads(script_content)
+        # Extract the chapter text from the parsed dictionary
         text_list : list = script_dic["props"]["pageProps"]["chapterText"]
         return text_list
     else:
         raise ValueError("Script tag with id '__NEXT_DATA__' not found!")
 
 
-# Give the file object for I/O. Give write permission
+# Function to get a file object for reading and writing
 def get_file_object(filename: str):
     return open(filename, 'w+')
 
+# Main function to extract text content from the Bible
 def extract_text():
     chapter = 0
-    # for each chapter
+     # Iterate over chapter count
     for key, value in bible_tags.items():
         chapter += 1
-        # for each page
+        # Iterate over each page of the current Bible book
         for i in range(1, value+1):
             try:
                 text_list = None
-                while (not text_list):
+                retry_count = 0
+                max_retries = 5
+                # Keep trying to fetch the chapter text until successful
+                while not text_list and retry_count < max_retries:
                     try:
                         text_list = get_chapter_text(key, i)
                     except KeyError:
-                        sleep(2)
+                        retry_count += 1
+                        sleep(2) # Pause for 2 seconds and retry
+                if retry_count == max_retries:
+                    raise ValueError(f"Reached max retries for {key} chapter {i}")
                 print("Chapter: " + str(chapter) + " Page: " + str(i))
+                # Get the file object for the current chapter
                 inputfile = get_file_object(f'{dir_path}/B{chapter:02}_{i:02}.txt')
                 line = 0
             except ValueError as err:
-                # Nothing in the list, print something unusual and terminate the program
+                # Handle any errors during the extraction process                
                 print(err)
                 return
+            # Write each verse to the file
             for ele in text_list:
                 line += 1
                 inputfile.write(str(line) + '. ' + ele["verse_text"] + "\n")
             inputfile.close()
 
-# The main execution of scraping
+# The main execution
 if __name__ == "__main__" :
     dir_path = 'Icelandic_isl_Bible_Text'
-
     # Check if the directory exists, and if not, create it
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
