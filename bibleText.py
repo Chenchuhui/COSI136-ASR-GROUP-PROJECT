@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 bible_tags: dict = {
     "MAT": 28,
     "MRK": 16,
+    "你爹"
 }
 
 def get_chapter_text(tag: str, page: int) -> list:
