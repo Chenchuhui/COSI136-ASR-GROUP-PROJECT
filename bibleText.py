@@ -4,10 +4,6 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
-# TODO: Fill the web tag and maximum number of pages here
-# 网页的格式: https://live.bible.is/bible/ISLICE/tag/page
-# 帮忙找一下tag和page的最大值 然后填在这里一下 之后在你的电脑上测试一下
-# 下面是前两个chapter的例子 在后面帮忙补全一下 谢谢
 bible_tags: dict = {
     "MAT": 28,
     "MRK": 16,
