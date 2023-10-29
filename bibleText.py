@@ -84,15 +84,13 @@ def extract_text():
                 print("Chapter: " + str(chapter) + " Page: " + str(i))
                 # Get the file object for the current chapter
                 inputfile = get_file_object(f'{dir_path}/B{chapter:02}_{i:02}.txt')
-                line = 0
             except ValueError as err:
                 # Handle any errors during the extraction process                
                 print(err)
                 return
             # Write each verse to the file
             for ele in text_list:
-                line += 1
-                inputfile.write(str(line) + '. ' + ele["verse_text"] + "\n")
+                inputfile.write(ele["verse_text"] + "\n")
             inputfile.close()
 
 # The main execution
