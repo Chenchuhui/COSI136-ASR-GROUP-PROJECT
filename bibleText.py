@@ -63,6 +63,7 @@ def get_file_object(filename: str):
 # Main function to extract text content from the Bible
 def extract_text():
     chapter = 0
+    fileIdx = 0
      # Iterate over chapter count
     for key, value in bible_tags.items():
         chapter += 1
@@ -83,7 +84,9 @@ def extract_text():
                     raise ValueError(f"Reached max retries for {key} chapter {i}")
                 print("Chapter: " + str(chapter) + " Page: " + str(i))
                 # Get the file object for the current chapter
-                inputfile = get_file_object(f'{dir_path}/B{chapter:02}_{i:02}.txt')
+                # File name format sample: B01___01_Matthew_____ISLICEN1DA
+                inputfile = get_file_object(f'Icelandic_isl_Bible_Text/{sorted_file_names_without_extension[fileIdx]}.txt')
+                fileIdx += 1
             except ValueError as err:
                 # Handle any errors during the extraction process                
                 print(err)
@@ -96,6 +99,14 @@ def extract_text():
 # The main execution
 if __name__ == "__main__" :
     dir_path = 'Icelandic_isl_Bible_Text'
+    file_name_folder_path = 'Icelandic_isl_ICE_NT_Non-Drama'
+    # Get a list of file names in the specified directory
+    file_names = os.listdir(file_name_folder_path)
+
+    # Filter out directories, keep only files, and remove file extensions
+    file_names_without_extension = [os.path.splitext(f)[0] for f in file_names if os.path.isfile(os.path.join(file_name_folder_path, f))]
+    # Sort the file names
+    sorted_file_names_without_extension = sorted(file_names_without_extension)
     # Check if the directory exists, and if not, create it
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
