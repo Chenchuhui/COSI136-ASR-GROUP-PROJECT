@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p Icelandic_isl_ICE_NT_Non-Drama_Converted
+
 # Loop through all .mp3 files in the current directory
 for file in Icelandic_isl_ICE_NT_Non-Drama/*.mp3; do
   # Use basename to get the file name without the extension
