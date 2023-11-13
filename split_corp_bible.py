@@ -7,8 +7,6 @@ def checkDataValidity(tf, af):
                 return False
         for i in range(len(tf)):
                 if os.path.splitext(tf[i])[0] != os.path.splitext(af[i])[0]:
-                        print(os.path.splitext(tf[i]))
-                        print(os.path.splitext(af[i]))
                         return False
         
         return True
@@ -71,7 +69,7 @@ else:
                     sub_seg.export(os.path.join(audio_dir_path, f'{tg_basename}_{cpt}.wav'), format="wav")
                     # Write back to the designated file
                     with open(os.path.join(text_dir_path, f'{tg_basename}_{cpt}.text'), mode='w') as tfile:
-                        tfile.write(utt.lower())
+                        tfile.write(utt.strip().lower())
                     # Reset every variable
                     utt = ""
                     begin = -1
