@@ -1,8 +1,12 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
+import os
+
+# Create folder if metadata directory not exist
+os.makedirs('metadata', exist_ok=True)
 
 # Read the CSV file into a pandas DataFrame
-df = pd.read_csv('metadata.csv')
+df = pd.read_csv('metadata/metadata.csv')
 
 # Add a temporary column to store the split status
 df['temp_status'] = ''
@@ -34,11 +38,11 @@ dev_df.drop(columns=['temp_status'], inplace=True)
 test_df.drop(columns=['temp_status'], inplace=True)
 
 # Write the updated DataFrame back to CSV
-df.to_csv('metadata.csv', index=False)
+df.to_csv('metadata/metadata.csv', index=False)
 
 # Write the data frame to seperate CSV
-train_df.to_csv('train.csv', index=False)
-dev_df.to_csv('dev.csv', index=False)
-test_df.to_csv('test.csv', index=False)
+train_df.to_csv('metadata/train.csv', index=False)
+dev_df.to_csv('metadata/dev.csv', index=False)
+test_df.to_csv('metadata/test.csv', index=False)
 
 print("The status column in metadata.csv has been updated.")

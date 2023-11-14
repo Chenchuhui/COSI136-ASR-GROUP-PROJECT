@@ -66,9 +66,10 @@ class AudioMetadataProcessor:
 # The main execution
 if __name__ == "__main__" :
     readFile = 'Audio_Types.xlsx'
-    resultFile = 'metadata.csv'
+    resultFile = 'metadata/metadata.csv'
     bible_audio_base_directory = 'Bible_Split_Corp_audio'
     bible_text_base_directory = 'Bible_Split_Corp_text'
+    os.makedirs('metadata', exist_ok=True)
 
     processor = AudioMetadataProcessor(readFile, resultFile, bible_audio_base_directory, bible_text_base_directory)
     processor.process_files()
