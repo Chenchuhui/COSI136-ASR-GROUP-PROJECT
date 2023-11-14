@@ -11,10 +11,10 @@ def checkDataValidity(tf, af):
         
         return True
 
-audio_base_dir = "Bible_Split_Corp_audio" # Path where we will categorize and store chopped audio
-text_base_dir = "Bible_Split_Corp_text" # Path where we will categorize and store chopped text
-textgrid_files_dir_path = 'BibleResultTextGrid' # Path where textgrid we read from
-audio_files_dir_path = 'Icelandic_isl_ICE_NT_Non-Drama_Converted' # Path where audio we read from 
+audio_base_dir = "audio_data" # Path where we will categorize and store chopped audio
+text_base_dir = "text_data" # Path where we will categorize and store chopped text
+textgrid_files_dir_path = 'ResultTextGrid' # Path where textgrid we read from
+audio_files_dir_path = 'converted_audio' # Path where audio we read from 
 
 if not os.path.exists(audio_base_dir):
         os.makedirs(audio_base_dir)
@@ -60,17 +60,33 @@ else:
             if begin == -1:
                 begin = tg_part[0]
             if i+1 == len(EL) or tg_part[1] != EL[i+1][0]:
-                if i+1 == len(EL) or tg_part[1] - begin >= 5 or EL[i+1][0] - tg_part[1] >= 0.6:
-                    end = tg_part[1]
-                    cpt += 1
-                    # Chop the audio given begin and end time
-                    sub_seg = seg[begin*1000: end*1000]
-                    # Export to the designated path
-                    sub_seg.export(os.path.join(audio_dir_path, f'{tg_basename}_{cpt:02}.wav'), format="wav")
-                    # Write back to the designated file
-                    with open(os.path.join(text_dir_path, f'{tg_basename}_{cpt:02}.text'), mode='w') as tfile:
-                        tfile.write(utt.strip().lower())
-                    # Reset every variable
-                    utt = ""
-                    begin = -1
-                    end = 0
+                if (tg_basename.startswith('B')):
+                        if i+1 == len(EL) or tg_part[1] - begin >= 5 or EL[i+1][0] - tg_part[1] >= 0.6:
+                                end = tg_part[1]
+                                cpt += 1
+                                # Chop the audio given begin and end time
+                                sub_seg = seg[begin*1000: end*1000]
+                                # Export to the designated path
+                                sub_seg.export(os.path.join(audio_dir_path, f'{tg_basename}_{cpt:02}.wav'), format="wav")
+                                # Write back to the designated file
+                                with open(os.path.join(text_dir_path, f'{tg_basename}_{cpt:02}.text'), mode='w') as tfile:
+                                        tfile.write(utt.strip().lower())
+                                # Reset every variable
+                                utt = ""
+                                begin = -1
+                                end = 0
+                else:
+                       if i+1 == len(EL) or tg_part[1] - begin >= 5 or EL[i+1][0] - tg_part[1] >= 0.9:
+                                end = tg_part[1]
+                                cpt += 1
+                                # Chop the audio given begin and end time
+                                sub_seg = seg[begin*1000: end*1000]
+                                # Export to the designated path
+                                sub_seg.export(os.path.join(audio_dir_path, f'{tg_basename}_{cpt:02}.wav'), format="wav")
+                                # Write back to the designated file
+                                with open(os.path.join(text_dir_path, f'{tg_basename}_{cpt:02}.text'), mode='w') as tfile:
+                                        tfile.write(utt.strip().lower())
+                                # Reset every variable
+                                utt = ""
+                                begin = -1
+                                end = 0
