@@ -66,9 +66,9 @@ else:
                     # Chop the audio given begin and end time
                     sub_seg = seg[begin*1000: end*1000]
                     # Export to the designated path
-                    sub_seg.export(os.path.join(audio_dir_path, f'{tg_basename}_{cpt}.wav'), format="wav")
+                    sub_seg.export(os.path.join(audio_dir_path, f'{tg_basename}_{cpt:02}.wav'), format="wav")
                     # Write back to the designated file
-                    with open(os.path.join(text_dir_path, f'{tg_basename}_{cpt}.text'), mode='w') as tfile:
+                    with open(os.path.join(text_dir_path, f'{tg_basename}_{cpt:02}.text'), mode='w') as tfile:
                         tfile.write(utt.strip().lower())
                     # Reset every variable
                     utt = ""
