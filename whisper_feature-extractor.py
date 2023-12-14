@@ -29,6 +29,18 @@ print(my_dataset)
 
 feature_extractor = WhisperFeatureExtractor.from_pretrained("openai/whisper-small")
 tokenizer = WhisperTokenizer.from_pretrained("openai/whisper-small", language="icelandic", task="transcribe")
+# We can verify that the tokenizer correctly encodes Icelandic characters by encoding and decoding the first sample of our dataset.
+input_str = my_dataset["train"][0]["your_text_field"]  # Replace 'your_text_field' with the actual field name of our text data
+labels = tokenizer(input_str).input_ids
+decoded_with_special = tokenizer.decode(labels, skip_special_tokens=False)
+decoded_str = tokenizer.decode(labels, skip_special_tokens=True)
+
+print(f"Input:                 {input_str}")
+print(f"Decoded w/ special:    {decoded_with_special}")
+print(f"Decoded w/out special: {decoded_str}")
+print(f"Are equal:             {input_str == decoded_str}")
+
+
 processor = WhisperProcessor.from_pretrained("openai/whisper-small", language="icelandic", task="transcribe")
 
 def prepare_dataset(batch):
@@ -45,6 +57,7 @@ def prepare_dataset(batch):
 
 @dataclass
 class DataCollatorSpeechSeq2SeqWithPadding:
+    # Define a Data Collator
     processor: Any
 
     def __call__(self, features: List[Dict[str, Union[List[int], torch.Tensor]]]) -> Dict[str, torch.Tensor]:
