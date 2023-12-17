@@ -15,10 +15,9 @@ from utils.config import load_config
 from spec_augmentation import SpecAugmentation
 from audio_augmentation import AudioAugmentation
 from scipy.io.wavfile import write
-from datetime import datetime
-
+import time
 # Setting seed.
-random.seed(datetime.now())
+random.seed(int(time.time()))
 
 # Constants
 sampling_rate = 16000
