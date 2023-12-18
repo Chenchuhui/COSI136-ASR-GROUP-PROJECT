@@ -22,7 +22,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Setting seed.
-random.seed(datetime.now())
+import time
+random.seed(int(time.time()))
 
 # Constants
 sampling_rate = 16000
@@ -248,10 +249,9 @@ def main():
     # Read config
     config = load_config(args.config_path)  
 
-    # Read noise files list
+     # Read noise files list
     with open(config.data_aug['noises_filepath'], "r") as f:
         noises_file_content = f.readlines()
-
     # Generate AudioAugmentation object
     aa = AudioAugmentation(sampling_rate)
     data = aa.read_audio_file(args.input_file)
