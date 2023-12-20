@@ -1,0 +1,91 @@
+speaker_id,filepath,filename,sentence,gender,age_group,status
+1,audio_data/B01___06_Matthew_____ISLICEN1DA/B01___06_Matthew_____ISLICEN1DA_17.wav,B01___06_Matthew_____ISLICEN1DA_17.wav,gef oss í dag vort daglegt brauð,Male,Senior,dev
+5,audio_data/B06___16_Romans______ISLICEN1DA/B06___16_Romans______ISLICEN1DA_39.wav,B06___16_Romans______ISLICEN1DA_39.wav,tímóteus samverkamaður minn lúkíus jason og sósípater ættmenn mínir biðja að heilsa ykkur,Male,Middle aged,dev
+5,audio_data/B16___03_2Timothy____ISLICEN1DA/B16___03_2Timothy____ISLICEN1DA_22.wav,B16___03_2Timothy____ISLICEN1DA_22.wav,eð þú veist af hverjum þú hefur numið það,Male,Middle aged,dev
+5,audio_data/B08___12_2CorinthiansISLICEN1DA/B08___12_2CorinthiansISLICEN1DA_12.wav,B08___12_2CorinthiansISLICEN1DA_12.wav,en ég veigra mér við því til þess að enginn skuli ætla mig meiri en hann sér mig,Male,Middle aged,dev
+6,audio_data/B19___03_Hebrews_____ISLICEN1DA/B19___03_Hebrews_____ISLICEN1DA_26.wav,B19___03_Hebrews_____ISLICEN1DA_26.wav,frá lifanda guði,Female,Middle aged,dev
+2,audio_data/B02___10_Mark________ISLICEN1DA/B02___10_Mark________ISLICEN1DA_87.wav,B02___10_Mark________ISLICEN1DA_87.wav,sonur tímeusar blindur beiningamaður,Male,Young adult,dev
+5,audio_data/B15___06_1Timothy____ISLICEN1DA/B15___06_1Timothy____ISLICEN1DA_07.wav,B15___06_1Timothy____ISLICEN1DA_07.wav,og því sem trú okkar kennir þá hefur hann ofmetnast og veit ekki neitt,Male,Middle aged,dev
+3,audio_data/B05___02_Acts________ISLICEN1DA/B05___02_Acts________ISLICEN1DA_27.wav,B05___02_Acts________ISLICEN1DA_27.wav,hér er að rætast það sem spámaðurinn jóel segir,Female,Young adult,dev
+3,audio_data/B03___12_Luke________ISLICEN1DA/B03___12_Luke________ISLICEN1DA_53.wav,B03___12_Luke________ISLICEN1DA_53.wav,og jesús sagði við lærisveina sína,Female,Young adult,dev
+7,audio_data/B24___01_2John_______ISLICEN1DA/B24___01_2John_______ISLICEN1DA_27.wav,B24___01_2John_______ISLICEN1DA_27.wav,börn systur þinnar hinnar útvöldu biðja að heilsa þér,Female,Senior,dev
+4,audio_data/B04___10_John________ISLICEN1DA/B04___10_John________ISLICEN1DA_70.wav,B04___10_John________ISLICEN1DA_70.wav,en þér trúið ekki,Female,Senior,dev
+6,audio_data/B22___01_2Peter______ISLICEN1DA/B22___01_2Peter______ISLICEN1DA_37.wav,B22___01_2Peter______ISLICEN1DA_37.wav,það er rétt af ykkur að gefa gaum að því eins og ljósi sem skín á myrkum stað þangað til dagur ljómar,Female,Middle aged,dev
+6,audio_data/B20___02_James_______ISLICEN1DA/B20___02_James_______ISLICEN1DA_05.wav,B20___02_James_______ISLICEN1DA_05.wav,ef öll athygli ykkar beinist að þeim sem skartklæðin ber og þið segið settu þig hérna í gott sæti,Female,Middle aged,dev
+5,audio_data/B07___01_1CorinthiansISLICEN1DA/B07___01_1CorinthiansISLICEN1DA_02.wav,B07___01_1CorinthiansISLICEN1DA_02.wav,guð,Male,Middle aged,dev
+4,audio_data/B04___14_John________ISLICEN1DA/B04___14_John________ISLICEN1DA_49.wav,B04___14_John________ISLICEN1DA_49.wav,þér munuð sjá mig því ég lifi og þér,Female,Senior,dev
+3,audio_data/B03___04_Luke________ISLICEN1DA/B03___04_Luke________ISLICEN1DA_33.wav,B03___04_Luke________ISLICEN1DA_33.wav,hefur sent mig til að flytja fátækum gleðilegan boðskap,Female,Young adult,dev
+5,audio_data/B07___05_1CorinthiansISLICEN1DA/B07___05_1CorinthiansISLICEN1DA_01.wav,B07___05_1CorinthiansISLICEN1DA_01.wav,fullyrt er að saurlifnaður eigi sér stað á meðal ykkar og það slíkur saurlifnaður sem jafnvel gerist ekki meðal heiðingja,Male,Middle aged,dev
+5,audio_data/B10___02_Ephesians___ISLICEN1DA/B10___02_Ephesians___ISLICEN1DA_26.wav,B10___02_Ephesians___ISLICEN1DA_26.wav,hann gerði heiðingja og ísraelsmenn að einum hann reif niður vegginn sem skildi þá að,Male,Middle aged,dev
+4,audio_data/B04___17_John________ISLICEN1DA/B04___17_John________ISLICEN1DA_69.wav,B04___17_John________ISLICEN1DA_69.wav,sé í þeim,Female,Senior,dev
+7,audio_data/B27___14_Revelation__ISLICEN1DA/B27___14_Revelation__ISLICEN1DA_30.wav,B27___14_Revelation__ISLICEN1DA_30.wav,hér reynir á þolgæði hinna heilögu,Female,Senior,dev
+3,audio_data/B05___24_Acts________ISLICEN1DA/B05___24_Acts________ISLICEN1DA_09.wav,B05___24_Acts________ISLICEN1DA_09.wav,kveikir ófrið með öllum gyðingum um víða veröld og er forsprakki villuflokks nasarea,Female,Young adult,dev
+3,audio_data/B03___08_Luke________ISLICEN1DA/B03___08_Luke________ISLICEN1DA_111.wav,B03___08_Luke________ISLICEN1DA_111.wav,en er jesús kom aftur fagnaði mannfjöldinn honum því að allir væntu hans,Female,Young adult,dev
+3,audio_data/B05___17_Acts________ISLICEN1DA/B05___17_Acts________ISLICEN1DA_47.wav,B05___17_Acts________ISLICEN1DA_47.wav,það boða ég ykkur,Female,Young adult,dev
+1,audio_data/B01___26_Matthew_____ISLICEN1DA/B01___26_Matthew_____ISLICEN1DA_22.wav,B01___26_Matthew_____ISLICEN1DA_22.wav,hann mælti farið til ákveðins manns í borginni og segið við hann meistarinn segir,Male,Senior,dev
+4,audio_data/B04___01_John________ISLICEN1DA/B04___01_John________ISLICEN1DA_88.wav,B04___01_John________ISLICEN1DA_88.wav,filippus var frá betsaídu sömu borg og,Female,Senior,dev
+7,audio_data/B27___08_Revelation__ISLICEN1DA/B27___08_Revelation__ISLICEN1DA_32.wav,B27___08_Revelation__ISLICEN1DA_32.wav,vegna lúðurþyts englanna þriggja sem eiga eftir að básúna,Female,Senior,dev
+5,audio_data/B08___11_2CorinthiansISLICEN1DA/B08___11_2CorinthiansISLICEN1DA_58.wav,B08___11_2CorinthiansISLICEN1DA_58.wav,í damaskus setti landshöfðingi areta konungs vörð um borgina til þess að handtaka mig,Male,Middle aged,dev
+7,audio_data/B27___02_Revelation__ISLICEN1DA/B27___02_Revelation__ISLICEN1DA_07.wav,B27___02_Revelation__ISLICEN1DA_07.wav,þú ert þolgóður og hefur þolað mikið vegna mín og ekki gefist upp,Female,Senior,dev
+6,audio_data/B19___08_Hebrews_____ISLICEN1DA/B19___08_Hebrews_____ISLICEN1DA_14.wav,B19___08_Hebrews_____ISLICEN1DA_14.wav,hefði hinn fyrri sáttmáli verið óaðfinnanlegur hefði ekki verið þörf fyrir annan,Female,Middle aged,dev
+3,audio_data/B03___18_Luke________ISLICEN1DA/B03___18_Luke________ISLICEN1DA_10.wav,B03___18_Luke________ISLICEN1DA_10.wav,og drottinn mælti,Female,Young adult,dev
+2,audio_data/B02___04_Mark________ISLICEN1DA/B02___04_Mark________ISLICEN1DA_54.wav,B02___04_Mark________ISLICEN1DA_54.wav,en sæðið grær og vex,Male,Young adult,dev
+3,audio_data/B03___06_Luke________ISLICEN1DA/B03___06_Luke________ISLICEN1DA_29.wav,B03___06_Luke________ISLICEN1DA_29.wav,filippus og bartólómeus matteus og tómas jakob alfeusson,Female,Young adult,dev
+1,audio_data/B01___06_Matthew_____ISLICEN1DA/B01___06_Matthew_____ISLICEN1DA_18.wav,B01___06_Matthew_____ISLICEN1DA_18.wav,fyrirgef oss vorar skuldir svo sem vér og fyrirgefum vorum skuldunautum,Male,Senior,dev
+1,audio_data/B01___04_Matthew_____ISLICEN1DA/B01___04_Matthew_____ISLICEN1DA_38.wav,B01___04_Matthew_____ISLICEN1DA_38.wav,dekapólis jerúsalem júdeu og landinu handan jórdanar,Male,Senior,dev
+5,audio_data/B18___01_Philemon____ISLICEN1DA/B18___01_Philemon____ISLICEN1DA_14.wav,B18___01_Philemon____ISLICEN1DA_14.wav,ég bið þig þá fyrir barnið mitt sem ég hef getið í fjötrum mínum,Male,Middle aged,dev
+5,audio_data/B08___07_2CorinthiansISLICEN1DA/B08___07_2CorinthiansISLICEN1DA_26.wav,B08___07_2CorinthiansISLICEN1DA_26.wav,þótt ég því hafi skrifað ykkur þá var það ekki vegna þess sem óréttinn gerði,Male,Middle aged,dev
+3,audio_data/B03___01_Luke________ISLICEN1DA/B03___01_Luke________ISLICEN1DA_68.wav,B03___01_Luke________ISLICEN1DA_68.wav,og elísabet fylltist heilögum anda og hrópaði hárri röddu,Female,Young adult,dev
+5,audio_data/B08___07_2CorinthiansISLICEN1DA/B08___07_2CorinthiansISLICEN1DA_37.wav,B08___07_2CorinthiansISLICEN1DA_37.wav,það gleður mig að ég get í öllu borið traust til ykkar,Male,Middle aged,dev
+3,audio_data/B05___16_Acts________ISLICEN1DA/B05___16_Acts________ISLICEN1DA_04.wav,B05___16_Acts________ISLICEN1DA_04.wav,kristnir menn í lýstru og íkóníum báru honum gott orð,Female,Young adult,dev
+2,audio_data/B02___10_Mark________ISLICEN1DA/B02___10_Mark________ISLICEN1DA_39.wav,B02___10_Mark________ISLICEN1DA_39.wav,hve torvelt er að komast inn í guðs ríki auðveldara er úlfalda að fara gegnum nálarauga,Male,Young adult,dev
+5,audio_data/B06___10_Romans______ISLICEN1DA/B06___10_Romans______ISLICEN1DA_42.wav,B06___10_Romans______ISLICEN1DA_42.wav,og það sem heyrt er byggist á orðum krists,Male,Middle aged,dev
+3,audio_data/B05___01_Acts________ISLICEN1DA/B05___01_Acts________ISLICEN1DA_15.wav,B05___01_Acts________ISLICEN1DA_15.wav,en þér munuð öðlast kraft er heilagur andi kemur yfir yður og þér munuð verða vottar mínir í jerúsalem,Female,Young adult,dev
+5,audio_data/B07___14_1CorinthiansISLICEN1DA/B07___14_1CorinthiansISLICEN1DA_38.wav,B07___14_1CorinthiansISLICEN1DA_38.wav,sem geta frætt aðra en tíu þúsund orð með tungum sem enginn skilur,Male,Middle aged,dev
+5,audio_data/B06___09_Romans______ISLICEN1DA/B06___09_Romans______ISLICEN1DA_33.wav,B06___09_Romans______ISLICEN1DA_33.wav,það er því ekki komið undir vilja manns eða áreynslu heldur guði sem miskunnar,Male,Middle aged,dev
+7,audio_data/B23___01_1John_______ISLICEN1DA/B23___01_1John_______ISLICEN1DA_19.wav,B23___01_1John_______ISLICEN1DA_19.wav,þá gerum við hann að lygara og orð hans er ekki í okkur,Female,Senior,dev
+3,audio_data/B03___19_Luke________ISLICEN1DA/B03___19_Luke________ISLICEN1DA_71.wav,B03___19_Luke________ISLICEN1DA_71.wav,þeir svöruðu,Female,Young adult,dev
+1,audio_data/B01___24_Matthew_____ISLICEN1DA/B01___24_Matthew_____ISLICEN1DA_19.wav,B01___24_Matthew_____ISLICEN1DA_19.wav,en sá sem staðfastur er allt til enda verður hólpinn,Male,Senior,dev
+3,audio_data/B05___22_Acts________ISLICEN1DA/B05___22_Acts________ISLICEN1DA_31.wav,B05___22_Acts________ISLICEN1DA_31.wav,sál bróðir fá þú aftur sjón þína,Female,Young adult,dev
+5,audio_data/B13___03_1Thess______ISLICEN1DA/B13___03_1Thess______ISLICEN1DA_09.wav,B13___03_1Thess______ISLICEN1DA_09.wav,en nú er tímóteus aftur kominn til mín frá ykkur og hefur borið mér gleðifregn um trú ykkar,Male,Middle aged,dev
+3,audio_data/B05___27_Acts________ISLICEN1DA/B05___27_Acts________ISLICEN1DA_59.wav,B05___27_Acts________ISLICEN1DA_59.wav,getið þið ekki bjargast,Female,Young adult,dev
+3,audio_data/B05___13_Acts________ISLICEN1DA/B05___13_Acts________ISLICEN1DA_68.wav,B05___13_Acts________ISLICEN1DA_68.wav,eigi munt þú láta þinn heilaga rotna í gröf,Female,Young adult,dev
+3,audio_data/B03___24_Luke________ISLICEN1DA/B03___24_Luke________ISLICEN1DA_28.wav,B03___24_Luke________ISLICEN1DA_28.wav,þeir námu staðar daprir í bragði og annar þeirra kleófas að nafni,Female,Young adult,dev
+5,audio_data/B09___06_Galatians___ISLICEN1DA/B09___06_Galatians___ISLICEN1DA_14.wav,B09___06_Galatians___ISLICEN1DA_14.wav,það sem maður sáir það mun hann og uppskera,Male,Middle aged,dev
+6,audio_data/B20___05_James_______ISLICEN1DA/B20___05_James_______ISLICEN1DA_15.wav,B20___05_James_______ISLICEN1DA_15.wav,verið þið einnig þolinmóð,Female,Middle aged,dev
+7,audio_data/B27___10_Revelation__ISLICEN1DA/B27___10_Revelation__ISLICEN1DA_13.wav,B27___10_Revelation__ISLICEN1DA_13.wav,þegar kemur að því að sjöundi engillinn fer að básúna hefur guð látið rætast sitt leynda ráð,Female,Senior,dev
+7,audio_data/B27___21_Revelation__ISLICEN1DA/B27___21_Revelation__ISLICEN1DA_52.wav,B27___21_Revelation__ISLICEN1DA_52.wav,og lambið og,Female,Senior,dev
+1,audio_data/B01___16_Matthew_____ISLICEN1DA/B01___16_Matthew_____ISLICEN1DA_37.wav,B01___16_Matthew_____ISLICEN1DA_37.wav,forði þér frá því drottinn þetta má aldrei fyrir þig koma,Male,Senior,dev
+5,audio_data/B07___12_1CorinthiansISLICEN1DA/B07___12_1CorinthiansISLICEN1DA_28.wav,B07___12_1CorinthiansISLICEN1DA_28.wav,ef allur líkaminn væri auga,Male,Middle aged,dev
+5,audio_data/B08___01_2CorinthiansISLICEN1DA/B08___01_2CorinthiansISLICEN1DA_26.wav,B08___01_2CorinthiansISLICEN1DA_26.wav,þið getið einnig hjálpað til þess með því að biðja fyrir mér,Male,Middle aged,dev
+5,audio_data/B06___15_Romans______ISLICEN1DA/B06___15_Romans______ISLICEN1DA_57.wav,B06___15_Romans______ISLICEN1DA_57.wav,hvíldar með ykkur,Male,Middle aged,dev
+5,audio_data/B07___12_1CorinthiansISLICEN1DA/B07___12_1CorinthiansISLICEN1DA_46.wav,B07___12_1CorinthiansISLICEN1DA_46.wav,þið eruð líkami krists og limir hans hvert um sig,Male,Middle aged,dev
+5,audio_data/B06___03_Romans______ISLICEN1DA/B06___03_Romans______ISLICEN1DA_35.wav,B06___03_Romans______ISLICEN1DA_35.wav,auðn og eymd er í slóð þeirra og veg friðarins þekkja þeir ekki,Male,Middle aged,dev
+3,audio_data/B03___17_Luke________ISLICEN1DA/B03___17_Luke________ISLICEN1DA_75.wav,B03___17_Luke________ISLICEN1DA_75.wav,en sá sem týnir því mun öðlast líf,Female,Young adult,dev
+7,audio_data/B27___03_Revelation__ISLICEN1DA/B27___03_Revelation__ISLICEN1DA_09.wav,B27___03_Revelation__ISLICEN1DA_09.wav,þig en þú átt fáein nöfn í sardes sem ekki hafa saurgað klæði sín og þau munu ganga með mér í hvítum klæðum,Female,Senior,dev
+7,audio_data/B27___08_Revelation__ISLICEN1DA/B27___08_Revelation__ISLICEN1DA_05.wav,B27___08_Revelation__ISLICEN1DA_05.wav,honum var fengið mikið reykelsi til þess að hann skyldi leggja það við bænir allra hinna heilögu á gullaltarið frammi fyrir hásætinu,Female,Senior,dev
+3,audio_data/B03___06_Luke________ISLICEN1DA/B03___06_Luke________ISLICEN1DA_69.wav,B03___06_Luke________ISLICEN1DA_69.wav,syndarar elska þá líka sem þá elska,Female,Young adult,dev
+5,audio_data/B07___15_1CorinthiansISLICEN1DA/B07___15_1CorinthiansISLICEN1DA_03.wav,B07___15_1CorinthiansISLICEN1DA_03.wav,það mun og frelsa ykkur ef þið haldið fast við það sem ég boðaði ykkur ella hafið þið til einskis tekið trú,Male,Middle aged,dev
+7,audio_data/B27___11_Revelation__ISLICEN1DA/B27___11_Revelation__ISLICEN1DA_40.wav,B27___11_Revelation__ISLICEN1DA_40.wav,og til að eyða þeim sem jörðina eyða,Female,Senior,dev
+4,audio_data/B04___08_John________ISLICEN1DA/B04___08_John________ISLICEN1DA_41.wav,B04___08_John________ISLICEN1DA_41.wav,því ég veit hvaðan ég kom,Female,Senior,dev
+4,audio_data/B04___01_John________ISLICEN1DA/B04___01_John________ISLICEN1DA_44.wav,B04___01_John________ISLICEN1DA_44.wav,fyrst þú ert hvorki kristur elía né spámaðurinn,Female,Senior,dev
+6,audio_data/B21___03_1Peter______ISLICEN1DA/B21___03_1Peter______ISLICEN1DA_24.wav,B21___03_1Peter______ISLICEN1DA_24.wav,blessunina,Female,Middle aged,dev
+3,audio_data/B03___18_Luke________ISLICEN1DA/B03___18_Luke________ISLICEN1DA_36.wav,B03___18_Luke________ISLICEN1DA_36.wav,en jesús kallaði þau til sín og mælti,Female,Young adult,dev
+4,audio_data/B04___07_John________ISLICEN1DA/B04___07_John________ISLICEN1DA_29.wav,B04___07_John________ISLICEN1DA_29.wav,menn urðu undrandi og sögðu,Female,Senior,dev
+3,audio_data/B03___12_Luke________ISLICEN1DA/B03___12_Luke________ISLICEN1DA_76.wav,B03___12_Luke________ISLICEN1DA_76.wav,leitið heldur ríkis hans og þá mun þetta veitast yður að auki,Female,Young adult,dev
+4,audio_data/B04___07_John________ISLICEN1DA/B04___07_John________ISLICEN1DA_112.wav,B04___07_John________ISLICEN1DA_112.wav,aldrei hefur nokkur maður talað þannig,Female,Senior,dev
+5,audio_data/B06___07_Romans______ISLICEN1DA/B06___07_Romans______ISLICEN1DA_50.wav,B06___07_Romans______ISLICEN1DA_50.wav,til góðs,Male,Middle aged,dev
+3,audio_data/B05___12_Acts________ISLICEN1DA/B05___12_Acts________ISLICEN1DA_38.wav,B05___12_Acts________ISLICEN1DA_38.wav,skýrði þeim frá hvernig drottinn hafði leitt hann út úr fangelsinu,Female,Young adult,dev
+3,audio_data/B03___10_Luke________ISLICEN1DA/B03___10_Luke________ISLICEN1DA_14.wav,B03___10_Luke________ISLICEN1DA_14.wav,neytið þess sem þar er fram borið í mat og drykk,Female,Young adult,dev
+3,audio_data/B03___17_Luke________ISLICEN1DA/B03___17_Luke________ISLICEN1DA_73.wav,B03___17_Luke________ISLICEN1DA_73.wav,minnist konu lots,Female,Young adult,dev
+4,audio_data/B04___11_John________ISLICEN1DA/B04___11_John________ISLICEN1DA_110.wav,B04___11_John________ISLICEN1DA_110.wav,en jesús hóf upp augu sín og mælti,Female,Senior,dev
+5,audio_data/B14___03_2Thess______ISLICEN1DA/B14___03_2Thess______ISLICEN1DA_27.wav,B14___03_2Thess______ISLICEN1DA_27.wav,þannig skrifa ég,Male,Middle aged,dev
+3,audio_data/B05___22_Acts________ISLICEN1DA/B05___22_Acts________ISLICEN1DA_19.wav,B05___22_Acts________ISLICEN1DA_19.wav,hver ert þú drottinn,Female,Young adult,dev
+3,audio_data/B05___02_Acts________ISLICEN1DA/B05___02_Acts________ISLICEN1DA_34.wav,B05___02_Acts________ISLICEN1DA_34.wav,og ég mun láta undur verða á himnum uppi og tákn á jörðu niðri,Female,Young adult,dev
+2,audio_data/B02___12_Mark________ISLICEN1DA/B02___12_Mark________ISLICEN1DA_42.wav,B02___12_Mark________ISLICEN1DA_42.wav,en láti eftir sig konu skuli bróðir hans ganga að eiga ekkjuna og vekja honum niðja,Male,Young adult,dev
+4,audio_data/B04___11_John________ISLICEN1DA/B04___11_John________ISLICEN1DA_21.wav,B04___11_John________ISLICEN1DA_21.wav,nýlega voru menn þar að því komnir að grýta þig,Female,Senior,dev
+5,audio_data/B08___02_2CorinthiansISLICEN1DA/B08___02_2CorinthiansISLICEN1DA_22.wav,B08___02_2CorinthiansISLICEN1DA_22.wav,því að ekki er okkur ókunnugt um vélráð hans en,Male,Middle aged,dev
+6,audio_data/B19___11_Hebrews_____ISLICEN1DA/B19___11_Hebrews_____ISLICEN1DA_32.wav,B19___11_Hebrews_____ISLICEN1DA_32.wav,þess vegna kom út af honum einum manni og það mjög ellihrumum,Female,Middle aged,dev
+5,audio_data/B16___02_2Timothy____ISLICEN1DA/B16___02_2Timothy____ISLICEN1DA_36.wav,B16___02_2Timothy____ISLICEN1DA_36.wav,flý þú æskunnar girndir en stunda réttlæti trú kærleika,Male,Middle aged,dev
+2,audio_data/B02___06_Mark________ISLICEN1DA/B02___06_Mark________ISLICEN1DA_103.wav,B02___06_Mark________ISLICEN1DA_103.wav,verið hughraustir það er ég,Male,Young adult,dev
+5,audio_data/B07___07_1CorinthiansISLICEN1DA/B07___07_1CorinthiansISLICEN1DA_78.wav,B07___07_1CorinthiansISLICEN1DA_78.wav,geri hann sem hann vill ef ekki verður hjá því komist hann syndgar ekki,Male,Middle aged,dev

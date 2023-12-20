@@ -42,7 +42,8 @@ def insert_noise(dataset_dir, dataset_csv, output_folder, config):
         choice = random.choice([i for i in range(0, len(data_aug_options))])
         filebase, filesize, text2,  = line.split(separator)
         filepath = os.path.join(dataset_dir, filebase.replace('.wav', '') + '.wav') 
-        filename = filepath.replace('/', '_').replace('.wav', '').replace('.', '') + '.wav'        
+        filename = filepath.split("/")[-1]
+        print(filename)   
 
         if data_aug_options[choice] == 'noise':
             data_aug = da.insert_white_noise(filepath)

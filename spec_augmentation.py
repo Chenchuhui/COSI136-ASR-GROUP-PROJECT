@@ -21,7 +21,8 @@ from utils.config import load_config
 from datetime import datetime
 
 # Setting seed.
-random.seed(datetime.now())
+timestamp = datetime.now().timestamp()
+random.seed(timestamp)
 
 # Constants
 MAX_WAV_VALUE=32767
