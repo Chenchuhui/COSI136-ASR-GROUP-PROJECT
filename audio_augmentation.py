@@ -51,7 +51,7 @@ class AudioAugmentation:
             data: numpy audio data time series.
 
         '''
-        data = librosa.core.load(filepath, self.sr)[0]
+        data = librosa.core.load(filepath)[0]
         #_, data = read(filepath)
         input_length = len(data)
         if len(data) > input_length:

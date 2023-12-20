@@ -117,7 +117,7 @@ class DataAugmentation():
         Returns:
             data: numpy audio data time series.
         '''
-        data, _ = load(filepath, self.sr) # Librosa function
+        data, _ = load(filepath) # Librosa function
         return data
 
     def write_audio(self, filepath, data):
